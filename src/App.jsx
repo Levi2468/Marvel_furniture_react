@@ -10,7 +10,7 @@ const Contact=lazy(()=>import('./contact') )
 const Cart=lazy(()=>import('./cart'))
 function App(){
   return (
-  <BrowserRouter>
+  <BrowserRouter  basename="/Marvel_furniture_react">
   <Navbar/>
   <Routes>
     <Route path='/' element={<Home/>}/>
